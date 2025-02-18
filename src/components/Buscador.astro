@@ -1,0 +1,112 @@
+<section>
+    <h1>Buscador de Elemento Químico</h1>
+    <form id="buscador">
+        <label for="elemento">Introduce el nombre, símbolo o número atómico:</label>
+        <input type="text" id="elemento" name="elemento" placeholder="Oxígeno, O, 1" required>
+        <button type="submit">🔍 Buscar</button>
+    </form>
+</section>
+
+<section id="resultado"></section>
+
+<style>
+    section {
+        background: white;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 90%; /* Se adapta a la pantalla */
+        max-width: 400px; /* No crece más allá de 400px */
+    }
+
+    /* Estilización del título */
+    h1 {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+
+    /* Estilización del formulario */
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    label {
+        font-size: 16px;
+        color: #374151;
+        text-align: left;
+    }
+
+    /* Estilización del input */
+    input {
+        width: 95%; /* Ajusta el ancho automáticamente */
+        padding: 12px;
+        font-size: 16px;
+        border: 2px solid #d1d5db;
+        border-radius: 8px;
+        transition: border 0.3s ease-in-out;
+        outline: none;
+    }
+
+    input:focus {
+        border-color: #2563eb;
+    }
+
+    /* Botón estilizado */
+    button {
+        width: 100%; /* El botón ahora ocupa el mismo ancho del input */
+        padding: 12px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out;
+    }
+
+    button:hover {
+        background-color: #1e40af;
+    }
+
+</style>
+
+<script type="module">
+    import elements from '../../public/elementos.json';
+
+    const form = document.getElementById('buscador');
+    const resultadoSection = document.getElementById('resultado');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const busqueda = document.getElementById('elemento').value.trim().toLowerCase();
+
+        if (!busqueda) {
+            return;
+        }
+
+        const elemento = elements.find(elemento =>
+            elemento.nombre.toLowerCase() === busqueda ||
+            elemento.alias.toLowerCase() === busqueda ||
+            elemento.numero === parseInt(busqueda)
+        );
+
+        if (elemento) {
+            resultadoSection.innerHTML = `
+                <h2>Elemento Encontrado</h2>
+                <p><strong>Nombre:</strong> ${elemento.nombre}</p>
+                <p><strong>Símbolo:</strong> ${elemento.alias}</p>
+                <p><strong>Número Atómico:</strong> ${elemento.numero}</p>
+                <p><strong>Masa Atómica:</strong> ${elemento.masa_atomica}</p>
+                <p><strong>Configuración Electrónica:</strong> ${elemento.configuracion_electronica}</p>
+            `;
+        } else {
+            resultadoSection.innerHTML = `<h2>No se encontró el elemento.</h2>`;
+        }
+    });
+</script>
