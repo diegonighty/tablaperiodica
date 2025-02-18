@@ -3,7 +3,7 @@
     <form id="buscador">
         <label for="elemento">Introduce el nombre, símbolo o número atómico:</label>
         <input type="text" id="elemento" name="elemento" placeholder="Oxígeno, O, 1" required>
-        <button type="submit">🔍 Buscar</button>
+        <button onclick="onSearchClick()">🔍 Buscar</button>
     </form>
 </section>
 
@@ -81,9 +81,7 @@
     const form = document.getElementById('buscador');
     const resultadoSection = document.getElementById('resultado');
 
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-
+    const onSearchClick = () => {
         const busqueda = document.getElementById('elemento').value.trim().toLowerCase();
 
         if (!busqueda) {
@@ -108,5 +106,5 @@
         } else {
             resultadoSection.innerHTML = `<h2>No se encontró el elemento.</h2>`;
         }
-    });
+    }
 </script>
