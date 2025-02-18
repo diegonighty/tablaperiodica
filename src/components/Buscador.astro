@@ -3,7 +3,7 @@
     <form id="buscador">
         <label for="elemento">Introduce el nombre, símbolo o número atómico:</label>
         <input type="text" id="elemento" name="elemento" placeholder="Oxígeno, O, 1" required>
-        <button onclick="onSearchClick()">🔍 Buscar</button>
+        <button type="submit">🔍 Buscar</button>
     </form>
 </section>
 
@@ -77,17 +77,9 @@
 
 <script type="module">
     import elements from 'elementos.json';
-
-    const form = document.getElementById('buscador');
     const resultadoSection = document.getElementById('resultado');
 
-    const onSearchClick = () => {
-        const busqueda = document.getElementById('elemento').value.trim().toLowerCase();
-
-        if (!busqueda) {
-            return;
-        }
-
+    const actualizarElemento = (busqueda) => {
         const elemento = elements.find(elemento =>
             elemento.nombre.toLowerCase() === busqueda ||
             elemento.alias.toLowerCase() === busqueda ||
@@ -107,4 +99,39 @@
             resultadoSection.innerHTML = `<h2>No se encontró el elemento.</h2>`;
         }
     }
+
+
+    const busquedaInicial = getQueryParams(window.location.search).busqueda;
+    if (busquedaInicial) {
+        actualizarElemento(busquedaInicial);
+    }
+
+    const form = document.getElementById('buscador');
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const busqueda = document.getElementById('elemento').value.trim().toLowerCase();
+
+        if (!busqueda) {
+            return;
+        }
+
+        actualizarElemento(busqueda);
+    });
+
+    // https://stackoverflow.com/questions/979975/get-the-values-from-the-get-parameters-javascript
+    function getQueryParams(qs) {
+        qs = qs.split('+').join(' ');
+
+        let params = {},
+            tokens,
+            re = /[?&]?([^=]+)=([^&]*)/g;
+
+        while (tokens = re.exec(qs)) {
+            params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+        }
+
+        return params;
+    }
+
 </script>
