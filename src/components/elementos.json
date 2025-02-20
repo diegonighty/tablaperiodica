@@ -4,825 +4,943 @@
     "alias": "H",
     "numero": 1,
     "masa_atomica": "1.008",
-    "configuracion_electronica": "1s¹"
+    "configuracion_electronica": "1s¹",
+    "categoria": "No metal"
   },
   {
     "nombre": "Helio",
     "alias": "He",
     "numero": 2,
     "masa_atomica": "4.0026",
-    "configuracion_electronica": "1s²"
+    "configuracion_electronica": "1s²",
+    "categoria": "Gas noble"
   },
   {
     "nombre": "Litio",
     "alias": "Li",
     "numero": 3,
     "masa_atomica": "6.94",
-    "configuracion_electronica": "[He] 2s¹"
+    "configuracion_electronica": "[He] 2s¹",
+    "categoria": "Metal alcalino"
   },
   {
     "nombre": "Berilio",
     "alias": "Be",
     "numero": 4,
     "masa_atomica": "9.0122",
-    "configuracion_electronica": "[He] 2s²"
+    "configuracion_electronica": "[He] 2s²",
+    "categoria": "Metal alcalinotérreo"
   },
   {
     "nombre": "Boro",
     "alias": "B",
     "numero": 5,
     "masa_atomica": "10.81",
-    "configuracion_electronica": "[He] 2s²2p¹"
+    "configuracion_electronica": "[He] 2s²2p¹",
+    "categoria": "Metaloide"
   },
   {
     "nombre": "Carbono",
     "alias": "C",
     "numero": 6,
     "masa_atomica": "12.011",
-    "configuracion_electronica": "[He] 2s²2p²"
+    "configuracion_electronica": "[He] 2s²2p²",
+    "categoria": "No metal"
   },
   {
     "nombre": "Nitrógeno",
     "alias": "N",
     "numero": 7,
     "masa_atomica": "14.007",
-    "configuracion_electronica": "[He] 2s²2p³"
+    "configuracion_electronica": "[He] 2s²2p³",
+    "categoria": "No metal"
   },
   {
     "nombre": "Oxígeno",
     "alias": "O",
     "numero": 8,
     "masa_atomica": "15.999",
-    "configuracion_electronica": "[He] 2s²2p⁴"
+    "configuracion_electronica": "[He] 2s²2p⁴",
+    "categoria": "No metal"
   },
   {
     "nombre": "Flúor",
     "alias": "F",
     "numero": 9,
     "masa_atomica": "18.998",
-    "configuracion_electronica": "[He] 2s²2p⁵"
+    "configuracion_electronica": "[He] 2s²2p⁵",
+    "categoria": "Halógeno"
   },
   {
     "nombre": "Neón",
     "alias": "Ne",
     "numero": 10,
     "masa_atomica": "20.180",
-    "configuracion_electronica": "[He] 2s²2p⁶"
+    "configuracion_electronica": "[He] 2s²2p⁶",
+    "categoria": "Gas noble"
   },
   {
     "nombre": "Sodio",
     "alias": "Na",
     "numero": 11,
     "masa_atomica": "22.990",
-    "configuracion_electronica": "[Ne] 3s¹"
+    "configuracion_electronica": "[Ne] 3s¹",
+    "categoria": "Metal alcalino"
   },
   {
     "nombre": "Magnesio",
     "alias": "Mg",
     "numero": 12,
     "masa_atomica": "24.305",
-    "configuracion_electronica": "[Ne] 3s²"
+    "configuracion_electronica": "[Ne] 3s²",
+    "categoria": "Metal alcalinotérreo"
   },
   {
     "nombre": "Aluminio",
     "alias": "Al",
     "numero": 13,
     "masa_atomica": "26.982",
-    "configuracion_electronica": "[Ne] 3s²3p¹"
+    "configuracion_electronica": "[Ne] 3s²3p¹",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Silicio",
     "alias": "Si",
     "numero": 14,
     "masa_atomica": "28.085",
-    "configuracion_electronica": "[Ne] 3s²3p²"
+    "configuracion_electronica": "[Ne] 3s²3p²",
+    "categoria": "Metaloide"
   },
   {
     "nombre": "Fósforo",
     "alias": "P",
     "numero": 15,
     "masa_atomica": "30.974",
-    "configuracion_electronica": "[Ne] 3s²3p³"
+    "configuracion_electronica": "[Ne] 3s²3p³",
+    "categoria": "No metal"
   },
   {
     "nombre": "Azufre",
     "alias": "S",
     "numero": 16,
     "masa_atomica": "32.06",
-    "configuracion_electronica": "[Ne] 3s²3p⁴"
+    "configuracion_electronica": "[Ne] 3s²3p⁴",
+    "categoria": "No metal"
   },
   {
     "nombre": "Cloro",
     "alias": "Cl",
     "numero": 17,
     "masa_atomica": "35.45",
-    "configuracion_electronica": "[Ne] 3s²3p⁵"
+    "configuracion_electronica": "[Ne] 3s²3p⁵",
+    "categoria": "Halógeno"
   },
   {
     "nombre": "Argón",
     "alias": "Ar",
     "numero": 18,
     "masa_atomica": "39.948",
-    "configuracion_electronica": "[Ne] 3s²3p⁶"
+    "configuracion_electronica": "[Ne] 3s²3p⁶",
+    "categoria": "Gas noble"
   },
   {
     "nombre": "Potasio",
     "alias": "K",
     "numero": 19,
     "masa_atomica": "39.098",
-    "configuracion_electronica": "[Ar] 4s¹"
+    "configuracion_electronica": "[Ar] 4s¹",
+    "categoria": "Metal alcalino"
   },
   {
     "nombre": "Calcio",
     "alias": "Ca",
     "numero": 20,
     "masa_atomica": "40.078",
-    "configuracion_electronica": "[Ar] 4s²"
+    "configuracion_electronica": "[Ar] 4s²",
+    "categoria": "Metal alcalinotérreo"
   },
   {
     "nombre": "Escandio",
     "alias": "Sc",
     "numero": 21,
     "masa_atomica": "44.956",
-    "configuracion_electronica": "[Ar] 3d¹4s²"
+    "configuracion_electronica": "[Ar] 3d¹4s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Titanio",
     "alias": "Ti",
     "numero": 22,
     "masa_atomica": "47.867",
-    "configuracion_electronica": "[Ar] 3d²4s²"
+    "configuracion_electronica": "[Ar] 3d²4s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Vanadio",
     "alias": "V",
     "numero": 23,
     "masa_atomica": "50.942",
-    "configuracion_electronica": "[Ar] 3d³4s²"
+    "configuracion_electronica": "[Ar] 3d³4s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Cromo",
     "alias": "Cr",
     "numero": 24,
     "masa_atomica": "51.996",
-    "configuracion_electronica": "[Ar] 3d⁵4s¹"
+    "configuracion_electronica": "[Ar] 3d⁵4s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Manganeso",
     "alias": "Mn",
     "numero": 25,
     "masa_atomica": "54.938",
-    "configuracion_electronica": "[Ar] 3d⁵4s²"
+    "configuracion_electronica": "[Ar] 3d⁵4s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Hierro",
     "alias": "Fe",
     "numero": 26,
     "masa_atomica": "55.845",
-    "configuracion_electronica": "[Ar] 3d⁶4s²"
+    "configuracion_electronica": "[Ar] 3d⁶4s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Cobalto",
     "alias": "Co",
     "numero": 27,
     "masa_atomica": "58.933",
-    "configuracion_electronica": "[Ar] 3d⁷4s²"
+    "configuracion_electronica": "[Ar] 3d⁷4s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Níquel",
     "alias": "Ni",
     "numero": 28,
     "masa_atomica": "58.693",
-    "configuracion_electronica": "[Ar] 3d⁸4s²"
+    "configuracion_electronica": "[Ar] 3d⁸4s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Cobre",
     "alias": "Cu",
     "numero": 29,
     "masa_atomica": "63.546",
-    "configuracion_electronica": "[Ar] 3d¹⁰4s¹"
+    "configuracion_electronica": "[Ar] 3d¹⁰4s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Zinc",
     "alias": "Zn",
     "numero": 30,
     "masa_atomica": "65.38",
-    "configuracion_electronica": "[Ar] 3d¹⁰4s²"
+    "configuracion_electronica": "[Ar] 3d¹⁰4s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Galio",
     "alias": "Ga",
     "numero": 31,
     "masa_atomica": "69.723",
-    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p¹"
+    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p¹",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Germanio",
     "alias": "Ge",
     "numero": 32,
     "masa_atomica": "72.630",
-    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p²"
+    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p²",
+    "categoria": "Metaloide"
   },
   {
     "nombre": "Arsénico",
     "alias": "As",
     "numero": 33,
     "masa_atomica": "74.922",
-    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p³"
+    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p³",
+    "categoria": "Metaloide"
   },
   {
     "nombre": "Selenio",
     "alias": "Se",
     "numero": 34,
     "masa_atomica": "78.971",
-    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p⁴"
+    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p⁴",
+    "categoria": "No metal"
   },
   {
     "nombre": "Bromo",
     "alias": "Br",
     "numero": 35,
     "masa_atomica": "79.904",
-    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p⁵"
+    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p⁵",
+    "categoria": "Halógeno"
   },
   {
     "nombre": "Kriptón",
     "alias": "Kr",
     "numero": 36,
     "masa_atomica": "83.798",
-    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p⁶"
+    "configuracion_electronica": "[Ar] 3d¹⁰4s²4p⁶",
+    "categoria": "Gas noble"
   },
   {
     "nombre": "Rubidio",
     "alias": "Rb",
     "numero": 37,
     "masa_atomica": "85.468",
-    "configuracion_electronica": "[Kr] 5s¹"
+    "configuracion_electronica": "[Kr] 5s¹",
+    "categoria": "Metal alcalino"
   },
   {
     "nombre": "Estroncio",
     "alias": "Sr",
     "numero": 38,
     "masa_atomica": "87.62",
-    "configuracion_electronica": "[Kr] 5s²"
+    "configuracion_electronica": "[Kr] 5s²",
+    "categoria": "Metal alcalinotérreo"
   },
   {
     "nombre": "Itrio",
     "alias": "Y",
     "numero": 39,
     "masa_atomica": "88.906",
-    "configuracion_electronica": "[Kr] 4d¹5s²"
+    "configuracion_electronica": "[Kr] 4d¹5s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Circonio",
     "alias": "Zr",
     "numero": 40,
     "masa_atomica": "91.224",
-    "configuracion_electronica": "[Kr] 4d²5s²"
+    "configuracion_electronica": "[Kr] 4d²5s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Niobio",
     "alias": "Nb",
     "numero": 41,
     "masa_atomica": "92.906",
-    "configuracion_electronica": "[Kr] 4d⁴5s¹"
+    "configuracion_electronica": "[Kr] 4d⁴5s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Molibdeno",
     "alias": "Mo",
     "numero": 42,
     "masa_atomica": "95.95",
-    "configuracion_electronica": "[Kr] 4d⁵5s¹"
+    "configuracion_electronica": "[Kr] 4d⁵5s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Tecnecio",
     "alias": "Tc",
     "numero": 43,
     "masa_atomica": "98.00",
-    "configuracion_electronica": "[Kr] 4d⁵5s²"
+    "configuracion_electronica": "[Kr] 4d⁵5s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Rutenio",
     "alias": "Ru",
     "numero": 44,
     "masa_atomica": "101.07",
-    "configuracion_electronica": "[Kr] 4d⁷5s¹"
+    "configuracion_electronica": "[Kr] 4d⁷5s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Rodio",
     "alias": "Rh",
     "numero": 45,
     "masa_atomica": "102.91",
-    "configuracion_electronica": "[Kr] 4d⁸5s¹"
+    "configuracion_electronica": "[Kr] 4d⁸5s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Paladio",
     "alias": "Pd",
     "numero": 46,
     "masa_atomica": "106.42",
-    "configuracion_electronica": "[Kr] 4d¹⁰"
+    "configuracion_electronica": "[Kr] 4d¹⁰",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Plata",
     "alias": "Ag",
     "numero": 47,
     "masa_atomica": "107.87",
-    "configuracion_electronica": "[Kr] 4d¹⁰5s¹"
+    "configuracion_electronica": "[Kr] 4d¹⁰5s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Cadmio",
     "alias": "Cd",
     "numero": 48,
     "masa_atomica": "112.41",
-    "configuracion_electronica": "[Kr] 4d¹⁰5s²"
+    "configuracion_electronica": "[Kr] 4d¹⁰5s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Indio",
     "alias": "In",
     "numero": 49,
     "masa_atomica": "114.82",
-    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p¹"
+    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p¹",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Estaño",
     "alias": "Sn",
     "numero": 50,
     "masa_atomica": "118.71",
-    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p²"
+    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p²",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Antimonio",
     "alias": "Sb",
     "numero": 51,
     "masa_atomica": "121.76",
-    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p³"
+    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p³",
+    "categoria": "Metaloide"
   },
   {
     "nombre": "Teluro",
     "alias": "Te",
     "numero": 52,
     "masa_atomica": "127.60",
-    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p⁴"
+    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p⁴",
+    "categoria": "Metaloide"
   },
   {
     "nombre": "Yodo",
     "alias": "I",
     "numero": 53,
     "masa_atomica": "126.90",
-    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p⁵"
+    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p⁵",
+    "categoria": "Halógeno"
   },
   {
     "nombre": "Xenón",
     "alias": "Xe",
     "numero": 54,
     "masa_atomica": "131.29",
-    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p⁶"
+    "configuracion_electronica": "[Kr] 4d¹⁰5s²5p⁶",
+    "categoria": "Gas noble"
   },
   {
     "nombre": "Cesio",
     "alias": "Cs",
     "numero": 55,
     "masa_atomica": "132.91",
-    "configuracion_electronica": "[Xe] 6s¹"
+    "configuracion_electronica": "[Xe] 6s¹",
+    "categoria": "Metal alcalino"
   },
   {
     "nombre": "Bario",
     "alias": "Ba",
     "numero": 56,
     "masa_atomica": "137.33",
-    "configuracion_electronica": "[Xe] 6s²"
+    "configuracion_electronica": "[Xe] 6s²",
+    "categoria": "Metal alcalinotérreo"
   },
   {
     "nombre": "Lantano",
     "alias": "La",
     "numero": 57,
     "masa_atomica": "138.91",
-    "configuracion_electronica": "[Xe] 5d¹6s²"
+    "configuracion_electronica": "[Xe] 5d¹6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Cerio",
     "alias": "Ce",
     "numero": 58,
     "masa_atomica": "140.12",
-    "configuracion_electronica": "[Xe] 4f¹5d¹6s²"
+    "configuracion_electronica": "[Xe] 4f¹5d¹6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Praseodimio",
     "alias": "Pr",
     "numero": 59,
     "masa_atomica": "140.91",
-    "configuracion_electronica": "[Xe] 4f³6s²"
+    "configuracion_electronica": "[Xe] 4f³6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Neodimio",
     "alias": "Nd",
     "numero": 60,
     "masa_atomica": "144.24",
-    "configuracion_electronica": "[Xe] 4f⁴6s²"
+    "configuracion_electronica": "[Xe] 4f⁴6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Prometio",
     "alias": "Pm",
     "numero": 61,
     "masa_atomica": "145",
-    "configuracion_electronica": "[Xe] 4f⁵6s²"
+    "configuracion_electronica": "[Xe] 4f⁵6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Samario",
     "alias": "Sm",
     "numero": 62,
     "masa_atomica": "150.36",
-    "configuracion_electronica": "[Xe] 4f⁶6s²"
+    "configuracion_electronica": "[Xe] 4f⁶6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Europio",
     "alias": "Eu",
     "numero": 63,
     "masa_atomica": "151.96",
-    "configuracion_electronica": "[Xe] 4f⁷6s²"
+    "configuracion_electronica": "[Xe] 4f⁷6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Gadolinio",
     "alias": "Gd",
     "numero": 64,
     "masa_atomica": "157.25",
-    "configuracion_electronica": "[Xe] 4f⁷5d¹6s²"
+    "configuracion_electronica": "[Xe] 4f⁷5d¹6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Terbio",
     "alias": "Tb",
     "numero": 65,
     "masa_atomica": "158.93",
-    "configuracion_electronica": "[Xe] 4f⁹6s²"
+    "configuracion_electronica": "[Xe] 4f⁹6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Disprosio",
     "alias": "Dy",
     "numero": 66,
     "masa_atomica": "162.50",
-    "configuracion_electronica": "[Xe] 4f¹⁰6s²"
+    "configuracion_electronica": "[Xe] 4f¹⁰6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Holmio",
     "alias": "Ho",
     "numero": 67,
     "masa_atomica": "164.93",
-    "configuracion_electronica": "[Xe] 4f¹¹6s²"
+    "configuracion_electronica": "[Xe] 4f¹¹6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Erbio",
     "alias": "Er",
     "numero": 68,
     "masa_atomica": "167.26",
-    "configuracion_electronica": "[Xe] 4f¹²6s²"
+    "configuracion_electronica": "[Xe] 4f¹²6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Tulio",
     "alias": "Tm",
     "numero": 69,
     "masa_atomica": "168.93",
-    "configuracion_electronica": "[Xe] 4f¹³6s²"
+    "configuracion_electronica": "[Xe] 4f¹³6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Iterbio",
     "alias": "Yb",
     "numero": 70,
     "masa_atomica": "173.04",
-    "configuracion_electronica": "[Xe] 4f¹⁴6s²"
+    "configuracion_electronica": "[Xe] 4f¹⁴6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Lutecio",
     "alias": "Lu",
     "numero": 71,
     "masa_atomica": "174.97",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d¹6s²"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d¹6s²",
+    "categoria": "Lantánido"
   },
   {
     "nombre": "Hafnio",
     "alias": "Hf",
     "numero": 72,
     "masa_atomica": "178.49",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d²6s²"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d²6s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Tántalo",
     "alias": "Ta",
     "numero": 73,
     "masa_atomica": "180.95",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d³6s²"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d³6s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Wolframio (Tungsteno)",
     "alias": "W",
     "numero": 74,
     "masa_atomica": "183.84",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d⁴6s²"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d⁴6s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Renio",
     "alias": "Re",
     "numero": 75,
     "masa_atomica": "186.21",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d⁵6s²"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d⁵6s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Osmio",
     "alias": "Os",
     "numero": 76,
     "masa_atomica": "190.23",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d⁶6s²"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d⁶6s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Iridio",
     "alias": "Ir",
     "numero": 77,
     "masa_atomica": "192.22",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d⁷6s²"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d⁷6s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Platino",
     "alias": "Pt",
     "numero": 78,
     "masa_atomica": "195.08",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d⁹6s¹"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d⁹6s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Oro",
     "alias": "Au",
     "numero": 79,
     "masa_atomica": "196.97",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s¹"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Mercurio",
     "alias": "Hg",
     "numero": 80,
     "masa_atomica": "200.59",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Talio",
     "alias": "Tl",
     "numero": 81,
     "masa_atomica": "204.38",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p¹"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p¹",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Plomo",
     "alias": "Pb",
     "numero": 82,
     "masa_atomica": "207.2",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p²"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p²",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Bismuto",
     "alias": "Bi",
     "numero": 83,
     "masa_atomica": "208.98",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p³"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p³",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Polonio",
     "alias": "Po",
     "numero": 84,
     "masa_atomica": "(209)",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p⁴"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p⁴",
+    "categoria": "Metaloide"
   },
   {
     "nombre": "Astato",
     "alias": "At",
     "numero": 85,
     "masa_atomica": "(210)",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p⁵"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p⁵",
+    "categoria": "Halógeno"
   },
   {
     "nombre": "Radón",
     "alias": "Rn",
     "numero": 86,
     "masa_atomica": "(222)",
-    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p⁶"
+    "configuracion_electronica": "[Xe] 4f¹⁴5d¹⁰6s²6p⁶",
+    "categoria": "Gas noble"
   },
   {
     "nombre": "Francio",
     "alias": "Fr",
     "numero": 87,
     "masa_atomica": "(223)",
-    "configuracion_electronica": "[Rn] 7s¹"
+    "configuracion_electronica": "[Rn] 7s¹",
+    "categoria": "Metal alcalino"
   },
   {
     "nombre": "Radio",
     "alias": "Ra",
     "numero": 88,
     "masa_atomica": "(226)",
-    "configuracion_electronica": "[Rn] 7s²"
+    "configuracion_electronica": "[Rn] 7s²",
+    "categoria": "Metal alcalinotérreo"
   },
   {
     "nombre": "Actinio",
     "alias": "Ac",
     "numero": 89,
     "masa_atomica": "(227)",
-    "configuracion_electronica": "[Rn] 6d¹7s²"
+    "configuracion_electronica": "[Rn] 6d¹7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Torio",
     "alias": "Th",
     "numero": 90,
     "masa_atomica": "232.04",
-    "configuracion_electronica": "[Rn] 6d²7s²"
+    "configuracion_electronica": "[Rn] 6d²7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Protactinio",
     "alias": "Pa",
     "numero": 91,
     "masa_atomica": "(231)",
-    "configuracion_electronica": "[Rn] 5f²6d¹7s²"
+    "configuracion_electronica": "[Rn] 5f²6d¹7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Uranio",
     "alias": "U",
     "numero": 92,
     "masa_atomica": "238.03",
-    "configuracion_electronica": "[Rn] 5f³6d¹7s²"
+    "configuracion_electronica": "[Rn] 5f³6d¹7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Neptunio",
     "alias": "Np",
     "numero": 93,
     "masa_atomica": "(237)",
-    "configuracion_electronica": "[Rn] 5f⁴6d¹7s²"
+    "configuracion_electronica": "[Rn] 5f⁴6d¹7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Plutonio",
     "alias": "Pu",
     "numero": 94,
     "masa_atomica": "(244)",
-    "configuracion_electronica": "[Rn] 5f⁶7s²"
+    "configuracion_electronica": "[Rn] 5f⁶7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Americio",
     "alias": "Am",
     "numero": 95,
     "masa_atomica": "(243)",
-    "configuracion_electronica": "[Rn] 5f⁷7s²"
+    "configuracion_electronica": "[Rn] 5f⁷7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Curio",
     "alias": "Cm",
     "numero": 96,
     "masa_atomica": "(247)",
-    "configuracion_electronica": "[Rn] 5f⁷6d¹7s²"
+    "configuracion_electronica": "[Rn] 5f⁷6d¹7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Berkelio",
     "alias": "Bk",
     "numero": 97,
     "masa_atomica": "(247)",
-    "configuracion_electronica": "[Rn] 5f⁹7s²"
+    "configuracion_electronica": "[Rn] 5f⁹7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Californio",
     "alias": "Cf",
     "numero": 98,
     "masa_atomica": "(251)",
-    "configuracion_electronica": "[Rn] 5f¹⁰7s²"
+    "configuracion_electronica": "[Rn] 5f¹⁰7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Einstenio",
     "alias": "Es",
     "numero": 99,
     "masa_atomica": "(252)",
-    "configuracion_electronica": "[Rn] 5f¹¹7s²"
+    "configuracion_electronica": "[Rn] 5f¹¹7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Fermio",
     "alias": "Fm",
     "numero": 100,
     "masa_atomica": "(257)",
-    "configuracion_electronica": "[Rn] 5f¹²7s²"
+    "configuracion_electronica": "[Rn] 5f¹²7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Mendelevio",
     "alias": "Md",
     "numero": 101,
     "masa_atomica": "(258)",
-    "configuracion_electronica": "[Rn] 5f¹³7s²"
+    "configuracion_electronica": "[Rn] 5f¹³7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Nobelio",
     "alias": "No",
     "numero": 102,
     "masa_atomica": "(259)",
-    "configuracion_electronica": "[Rn] 5f¹⁴7s²"
+    "configuracion_electronica": "[Rn] 5f¹⁴7s²",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Lawrencio",
     "alias": "Lr",
     "numero": 103,
     "masa_atomica": "(262)",
-    "configuracion_electronica": "[Rn] 5f¹⁴7s²7p¹"
+    "configuracion_electronica": "[Rn] 5f¹⁴7s²7p¹",
+    "categoria": "Actínido"
   },
   {
     "nombre": "Rutherfordio",
     "alias": "Rf",
     "numero": 104,
     "masa_atomica": "(267)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d²7s²"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d²7s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Dubnio",
     "alias": "Db",
     "numero": 105,
     "masa_atomica": "(268)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d³7s²"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d³7s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Seaborgio",
     "alias": "Sg",
     "numero": 106,
     "masa_atomica": "(269)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d⁴7s²"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d⁴7s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Bohrio",
     "alias": "Bh",
     "numero": 107,
     "masa_atomica": "(270)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d⁵7s²"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d⁵7s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Hassio",
     "alias": "Hs",
     "numero": 108,
     "masa_atomica": "(269)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d⁶7s²"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d⁶7s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Meitnerio",
     "alias": "Mt",
     "numero": 109,
     "masa_atomica": "(278)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d⁷7s²"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d⁷7s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Darmstatio",
     "alias": "Ds",
     "numero": 110,
     "masa_atomica": "(281)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d⁹7s¹"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d⁹7s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Roentgenio",
     "alias": "Rg",
     "numero": 111,
     "masa_atomica": "(281)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s¹"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s¹",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Copernicio",
     "alias": "Cn",
     "numero": 112,
     "masa_atomica": "(285)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²",
+    "categoria": "Metal de transición"
   },
   {
     "nombre": "Nihonio",
     "alias": "Nh",
     "numero": 113,
     "masa_atomica": "(286)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p¹"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p¹",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Flerovio",
     "alias": "Fl",
     "numero": 114,
     "masa_atomica": "(289)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p²"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p²",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Moscovio",
     "alias": "Mc",
     "numero": 115,
     "masa_atomica": "(289)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p³"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p³",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Livermorio",
     "alias": "Lv",
     "numero": 116,
     "masa_atomica": "(293)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p⁴"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p⁴",
+    "categoria": "Metal post-transición"
   },
   {
     "nombre": "Teneso",
     "alias": "Ts",
     "numero": 117,
     "masa_atomica": "(294)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p⁵"
+    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p⁵",
+    "categoria": "Halógeno"
   },
   {
     "nombre": "Oganesón",
     "alias": "Og",
     "numero": 118,
     "masa_atomica": "(294)",
-    "configuracion_electronica": "[Rn] 5f¹⁴5d¹⁰7s²7p⁶"
+    "configuracion_electrononica": "[Rn] 5f¹⁴5d¹⁰7s²7p⁶",
+    "categoria": "Gas noble"
   }
 ]
