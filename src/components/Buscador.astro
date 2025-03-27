@@ -76,7 +76,7 @@
 </style>
 
 <script>
-    import elements from './elementos.json';
+    import elementos from './elementos.json';
     const form = document.getElementById('buscador');
     const resultadoSection = document.getElementById('resultado');
     const subniveles = [
@@ -129,7 +129,7 @@
             return;
         }
 
-        const elemento = elements.find(elemento =>
+        const elemento = elementos.find(elemento =>
             elemento.nombre.toLowerCase() === busqueda ||
             elemento.alias.toLowerCase() === busqueda ||
             elemento.numero === parseInt(busqueda)
